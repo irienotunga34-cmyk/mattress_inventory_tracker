@@ -1,0 +1,10 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+.env
+git rm -r --cached venv
+git rm -r --cached .venv
+git add .
+git commit -m "remove venv for deployment"
+git push
